@@ -14,7 +14,7 @@ let title2 = document.getElementById('title2');
 window.addEventListener('scroll', function(){
     let value = window.scrollY;
 
-    text.style.top = 100 + value * -0.1 + '%';
+    text.style.bottom= 40 + value * -0.1 + '%';
     bird1.style.top = value * -1 + 'px';
     bird1.style.left = value * 2 + 'px';
     bird2.style.top = value * -3 + 'px';
